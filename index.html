@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="container">
+    <header>
+        <div class="card">
+            <h1 class="text-center">Game Suwit Jepang</h1>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <article class="card p-2" id="sejarah">
+                <h2>Apa itu Suwit jepang?</h2>
+                <p class="indent">Batu-Gunting-Kertas adalah sebuah permainan tangan dua orang. Permainan ini sering digunakan untuk pemilihan acak, seperti halnya pelemparan koin, dadu, dan lain-lain. Beberapa permainan dan olahraga menggunakannya untuk menentukan peserta mana yang bermain terlebih dahulu. Kadang ia juga dipakai untuk menentukan peran dalam permainan peran, maupun dipakai sebagai sarana perjudian. Permainan ini dimainkan di berbagai belahan dunia.
+                Di kalangan anak-anak Indonesia, permainan ini juga dikenal dengan istilah "Suwit Jepang". Di Indonesia dikenal juga permainan sejenis yang dinamakan suwit.</p> 
+            </article>
+            <article class="card p-2" id="caraMain">
+                <h2>Cara bermain</h2>
+                <p class="indent">Terdapat tiga isyarat tangan dalam permainan ini. Batu digambarkan oleh tangan mengepal, gunting digambarkan oleh jari telunjuk dan tengah, kertas digambarkan oleh tangan terbuka. Tujuan dari permainan adalah mengalahkan lawan bermain. Aturan standar adalah batu mengalahkan gunting, gunting mengalahkan kertas, dan batu mengalahkan kertas
+                Jika kedua pemain mengeluarkan isyarat yang sama, maka permainan diulang. Kadang kala pemain menggunakan sistem berulang-ulang artinya sekali kemenangan tidak cukup untuk menghentikan permainan. Misalnya pemain yang menang 5 kali terlebih dahulu menjadi pemenang.</p>
+            </article>
+
+            <div class="card p-2" id="game">
+                <h1 class="text-center">Ayo main!!</h1>
+                <div class="group-input text-center box20">
+                    <label class="display-block text-large" for="pilihan">Pilihan Anda</label>
+                    <select class="display-block margin-center text-center" name="pilihan" id="pilihan">
+                        <option value="Batu">Batu</option>
+                        <option value="Gunting">Gunting</option>
+                        <option value="Kertas">Kertas</option>
+                    </select>
+                    <button type="button" id="submitPilih">Pilih</button>
+                </div>
+                
+                <div class="flex-column p-2">
+                    <div class="flex-row">
+
+                        <div class="text-center box40">
+                            <label class="display-block text-large" for="pilihan">Anda</label>
+                            <div class="mt-2" id="andaTampil"><img src="assets/img/kosong.png" alt="" width="100px"></div>
+                        </div>
+                        
+                        <div class="text-center box20">
+                            <img id="vs" src="assets/img/versus.png" alt="" width="100px">
+                        </div>
+                        
+                        <div class="text-center box40">
+                            <label class="display-block text-large" for="pilihan">Lawan</label>
+                            <div class="mt-2" id="lawanTampil"><img src="assets/img/kosong.png" alt="" width="100px"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex-column p-2">
+                    <div class="flex-row">
+
+                        <div class="box100">
+                            <label class="display-block text-large text-center" for="pilihan">Hasil Anda</label>
+                            <div class="mt-2 text-center" id="hasilTampil"><img src="assets/img/kosong.png" alt="" width="100px"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <aside>
+            <div class="card margin-center p-2">
+                <h5>Tentang saya</h5>
+                <img class="display-block margin-center border" src="assets/img/fotocv.png" alt="" width="100">
+                <h4 class="display-block text-center">Muhammad Ammaridho Romdhan Siregar</h4>
+            </div>
+        </aside>
+    </main>
+    <footer class="text-center">
+        <div class="card text-large">
+            <p> &copy; 2022, Ammaridho </p>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="assets/script.js"></script>
+</body>
+</html>
